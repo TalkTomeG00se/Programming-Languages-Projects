@@ -1,0 +1,17 @@
+## Colten Davis
+## CS 354
+## LA5
+
+## Summary
+## Porting this project over to C# was challenging for me since I had limited knowledge of C# in general.
+## While I could easily understand the java program, finidng the exact ways to accomplish the same tasks
+## in C# was not as cut and dry. I basically had to look up each function in java and see what the 
+## corresponding one was in C#, along with several google searches to understand what was analogous to Jframes.
+## The java implemenation is much easier to understand, as is Java in general, in my opinion. I was briefly
+## in a online program through Oregon State and they start students using C# instead of Java, and it was
+## difficult even then. A helpful, though fairly old tool that was extremely helpful here, was the Java
+## Language Conversion Assistant, a relic of a tool from Visual Studio 2005. It attempts to convert Java
+## code to C#. It did indeed do the conversion, but would not compile, as I expected and the documentation
+## said would occur. It later crashed and corrrupted when my Visual Studio 2019 updater ran, o well.
+## While it wasn't perfect, it gave me a skelton of code to work with and that's how I arrived with the current 
+## state of the project. 

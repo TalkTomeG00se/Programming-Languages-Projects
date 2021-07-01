@@ -1,0 +1,25 @@
+## Assignment: LA4
+## Author: Colten Davis
+## CS 354-1
+
+## Overview
+# Awk is not among my favorite languages we've learned. Referencing the slides, google and a few free books
+# was what got me through this mostly. Awk seems a bit...awkward, no pun intended. The awkscript was the hardest
+# part. The run sript to simply get it to work wasn't too bad, though I am relatively new to html so again, had
+# to reference quite a bit to understand how to get the html output to look. Luckily I was able to use some of 
+# the material I had already made for our CS 354 website. I originally had a issue with parsing for the word 
+# "single". It was only finding a few values, and the .csv file had 14 single family dwellings. I tried to include
+# INGNORECASE=1, but while that did find ones that SINGLE or single, it didn't find all of them. I figured it was 
+# having a problem that Single is both lowercase and uppercase, so I just shortened the search to "ingle", but now
+# that again, didn't find them all. I then learned that you can add additional search strings, so I did "ingle" 
+# and "INGLE", and that found all 14. Getting the html to line up properly was mostly a trial and error exercise. 
+# Tried to use align=left but that didn't space correctly like html images, so I had to use padding-left and a 
+# pixel value that worked. 
+
+## Instructions
+# Simply execute the run script on the .csv file you provide via command line: run [ .csv file ]
+# This will then parse the .csv file and the results will be located in the output.html file, which can 
+# then be viewed in any supported browser. 
+
+## Files
+# Included files are: run ( shell script ), awkscript.sh (awk shell script ), and output.html ( resulting html file ).

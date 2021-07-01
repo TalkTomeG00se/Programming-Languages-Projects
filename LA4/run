@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+echo "<html> <head> <title>Remix Real Estate</title> </head> <body> <h1>Affordable Single Homes Near You</h1> <table> " > output.html
+echo "<tr> <th style=\"padding-left:10px\">Subdivision</th> <th style=\"padding-left:10px\">Price</th> <th style=\"padding-left:10px\">Issue Date</th> <th style=\"padding-left:10px\">Lot</th> <th style=\"padding-left:10px\">Block</th> </tr>" >> output.html
+tail -n +2 $1 | ./awkscript.sh >> output.html
+echo "</table> </body> </html>" >> output.html
